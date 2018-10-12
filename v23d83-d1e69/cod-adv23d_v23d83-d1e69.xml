@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Prologus [Leipzig 591 Transcription]</title>
+        <author ref="#HenningusBoltenhagen">Henningus Boltenhagen</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev-master">
+          <title>Liber 1, Prologus [Leipzig 591 Transcription]</title>
+          <date when="2018-10-12">October 12, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-adv23d">Leipzig University, ms. 591</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-10-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="11-r"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v23d83-d1e69">
+        <head>Liber 1, Prologus [Leipzig 591 Transcription]</head>
+        <p>
+          <pb ed="#L" n="11-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L"/>Circa initium primi 
+          <lb ed="#L"/>libri sententiarum
+          <lb ed="#L"/>Quaeritur primo <pc type="#punctus"/>
+          <lb ed="#L"/>Utrum sacrae scientiae theologicae convenienter as<lb ed="#L"/>signentur 
+          4or generum causarum <unclear>causae</unclear>
+        </p>
+        <p>
+          arguitur quod 
+          <lb ed="#L"/>theologia non est scientia igitur suppositum quaestionis falsum antecedens <unclear>tenetur</unclear> 
+          quod non est una scientia non est scientia sed theologia 
+          <lb ed="#L"/>non est una scientia igitur maior patet quia per idem 
+          <lb ed="#L"/>aliquid habet esset et unum esse 4o <title>metaphysicae</title> et 
+          <lb ed="#L"/>eadem est rem hominis et minus hominis primo <title>elenchiorum</title> 
+          <lb ed="#L"/>minor probatur quia dicit <name>commentator</name> 4o <title>metaphysicae</title> 
+          <lb ed="#L"/>quod eadem scientia non potest determinare de aequivocis 
+          <lb ed="#L"/>et in de substantia orbus ait quod omnia quae dicuntur 
+          <lb ed="#L"/>de suo caelestibus et inferioribus dicuntur modo 
+          <lb ed="#L"/>aequivocatio sed creata et creatura de quibus tractat 
+          <lb ed="#L"/>theologia plus descivit quam inferiora et superi<lb ed="#L"/>ora 
+          Confirmatur nulla scientia est de singularibus 
+          <lb ed="#L"/>sed theologia pro <unclear>magis</unclear> parte est de singularibus 
+          <lb ed="#L"/>igitur non est scientia <pc type="virgula">/</pc> maior patet per <unclear>quantum</unclear> qui dicit indivi<lb ed="#L"/>dua 
+          relinquenda sunt <unclear>alia?rte</unclear> quia earum 
+          <lb ed="#L"/>non potest esse <unclear>disci?va</unclear> Similiter patet a <title>metaphysicae</title> 
+          <lb ed="#L"/>et primo <unclear>pt</unclear> <name>commentatoris</name> et primo <title>ethicorum</title> Confirmatur omnis 
+          <lb ed="#L"/>scientia es speculativa vel practica sed theologia 
+          <lb ed="#L"/>non est aliqua illarum igitur maior patet 6 <title>metaphysicae</title> 
+          <lb ed="#L"/>sed minor probatur et primo quod non practica quia ipsa est 
+          <lb ed="#L"/>simpliciter speculativa <pc type="virgula">/</pc> quod sic probatur scientia cuius finis 
+          <lb ed="#L"/>per se et princiaplis est cognitio dei est simpliciter speculativa 
+          <lb ed="#L"/>theologia est huiusmodi maior patet 2o <title>metaphysicae</title> ubi 
+          <lb ed="#L"/>dicitur theologiae finis est veritas practicae vero 
+          <lb ed="#L"/>opus minor patet de see quia studium sacrae 
+          <lb ed="#L"/>scripturae omnino ordinantur ad hoc quod vera 
+          <lb ed="#L"/>ad <unclear>sideri</unclear> pertinentia katholicam cognoscuntur 
+          <lb ed="#L"/>et astris discernantur sed quod non sit speculativa 
+          <lb ed="#L"/>arguitur quia ipsa est simpliciter practica eo quod 
+          <lb ed="#L"/>eius finis proprius est praxis ut patet per illud <title>matthaeus</title> 19 
+          <lb ed="#L"/><quote ana="#mt19_17">si vis ad vitam ingredi serva man<lb ed="#L"/>data</quote> 
+          ecce <del rend="strikethrough">mandata</del> opus cum mandata 
+          <lb ed="#L"/>sint in <unclear>gloris</unclear> de opere faciendo vel di<lb ed="#L"/>mittendo 
+          utque per illud psalmum <quote ana="#ps36_27">declina a malo 
+          <lb ed="#L"/>et fac bonum</quote> quia illa in summa
+        </p>
+        <p>
+          <pc type="#pilcrow"/> 2o sic theologiae non assignatur convenienter 
+          <lb ed="#L"/>causa materialis ut formalis et sic de aliis <unclear>a??m</unclear> pro prima 
+          <lb ed="#L"/>parte quia theologia non habet causam materialem 
+          <lb ed="#L"/>proprie dictam ut improprie dictam maior patet quia 
+          <cb ed="#L" n="b"/>
+          <lb ed="#L"/>ipsa non est composita etc materia et forma minor probatur 
+          <lb ed="#L"/>quia ipsa non habet causam materialem improprie dictam 
+          <lb ed="#L"/>in qua ut circa quam <pc type="virgula">/</pc> prima pars probatur quia si haberet 
+          <lb ed="#L"/><unclear>annus</unclear> <unclear>m?tlem</unclear> in qua etc maxime esset 
+          <lb ed="#L"/>anima falsitas patet quia theologia non est 
+          <lb ed="#L"/>patet quia ipsa est <unclear>in deo</unclear> iuxta <title>ad romanorum</title> 11o 
+          <lb ed="#L"/><quote ana="#rom11_36">quoniam ex ipso et per ipsum et in ipso sunt omnia</quote>
+          <lb ed="#L"/>igitur non in omnia consequentia tenet quia idem accidens non 
+          <lb ed="#L"/>est diversis substantiis Confirmatur si esset 
+          ...
+          <pb ed="#L" n="8-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L"/>est de spiritu sancto quam plato maxime 
+          <lb ed="#L"/>cum dicantur altissima fidei nostrae 
+          <lb ed="#L"/>in tractationibus sacrae theologiae Etiam non 
+          <lb ed="#L"/>habet causam finalem probatur quia si sic 
+          <lb ed="#L"/>vel esset cognitio veri vel dilectio boni 
+          <lb ed="#L"/>non primum ut patet per <name>venerabilem augustinum</name> libro primo 
+          <lb ed="#L"/><del>de trinitate</del> <title>de doctrina christiana</title> <unclear> 21 7</unclear> ubi dicit 
+          <lb ed="#L"/><quote source="http://scta.info/resource/addc-l1">legis et omnium divinarum scripturarum plenitudo 
+          <lb ed="#L"/>et finis est dilectio dei quo fruendum 
+          <lb ed="#L"/>est</quote> <unclear>enim</unclear> potest dici 2m quia dilectio boni 
+          <lb ed="#L"/>eset finis caritatis igitur non theologiae <unclear>cum tenet</unclear> 
+          <lb ed="#L"/>quia inpossibile est habituum <unclear>sse</unclear> differentium 
+          <lb ed="#L"/><unclear>eundi</unclear> esse <unclear>ser?e</unclear> per se et proprium antecedens 
+          <lb ed="#L"/>notum est de se
+        </p>
+        <p>
+          In oppositum primi est 
+          <lb ed="#L"/><name>apostolus</name> qui <unclear>uxat</unclear> causa <unclear>scientiarum</unclear> et <name>beatus augustinus</name> 
+          <lb ed="#L"/>in multis locis ut <ref target="http://scta.info/resource/adt-l14"><title>de trinitate</title> 14</ref> dicit theologia 
+          <lb ed="#L"/>est scientia de hiis quae ad salutem animae 
+          <lb ed="#L"/>pertinent et ratione sic certior est cognitio 
+          <lb ed="#L"/>tradita per divinam inspirationem quam 
+          <lb ed="#L"/>per humanam inventionem et dignior debet 
+          <lb ed="#L"/>dici scientia
+        </p>
+        <p>
+          ista quaestio unum praesupponit 
+          <lb ed="#L"/>et aliud quaerit et secundum hoc erunt duo 
+          <lb ed="#L"/>articuli
+        </p>
+        <div>
+          <head>Articulus 1</head>
+          <head type="question-title">An theologia sit scientia et si sic an simpliciter sit practica 
+          an simpliciter speculativa an mixto modo se habens de utroque</head>
+          <p>
+            Quantum ad primum videndi 
+            <lb ed="#L"/>est an theologia sit scientia et si sic an simpliciter 
+            <lb ed="#L"/>sit practica an simpliciter speculativa an mixto 
+            <lb ed="#L"/>modo se habens de utroque
+          </p>
+          <p>
+            sunt variae opiniones 
+            <lb ed="#L"/>quo ad primum <title>thomas de argentina</title> recitat 
+            <lb ed="#L"/>quaestione prima super prologum plures opiniones 
+            <lb ed="#L"/>cum 
+          </p>
+      </div>
+    </body>
+  </text>
+</TEI>
