@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -45,9 +42,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#L" n="11-r"/>
         <cb ed="#L" n="a"/>
@@ -55,8 +50,8 @@
     </front>
     <body>
       <div xml:id="v23d83-d1e69">
-        <head>Liber 1, Prologus [Leipzig 591 Transcription]</head>
-        <p>
+        <head xml:id="v23d83-d1e69-Hd1e100">Liber 1, Prologus [Leipzig 591 Transcription]</head>
+        <p xml:id="v23d83-d1e69-d1e103">
           <pb ed="#L" n="11-r"/>
           <cb ed="#L" n="a"/>
           <lb ed="#L"/>Circa initium primi 
@@ -65,7 +60,7 @@
           <lb ed="#L"/>Utrum sacrae scientiae theologicae convenienter as<lb ed="#L"/>signentur 
           4or generum causarum <unclear>causae</unclear>
         </p>
-        <p>
+        <p xml:id="v23d83-d1e69-d1e126">
           arguitur quod 
           <lb ed="#L"/>theologia non est scientia igitur suppositum quaestionis falsum antecedens <unclear>tenetur</unclear> 
           quod non est una scientia non est scientia sed theologia 
@@ -97,13 +92,13 @@
           <lb ed="#L"/>et astris discernantur sed quod non sit speculativa 
           <lb ed="#L"/>arguitur quia ipsa est simpliciter practica eo quod 
           <lb ed="#L"/>eius finis proprius est praxis ut patet per illud <title>matthaeus</title> 19 
-          <lb ed="#L"/><quote ana="#mt19_17">si vis ad vitam ingredi serva man<lb ed="#L"/>data</quote> 
+          <lb ed="#L"/><quote xml:id="v23d83-d1e69-Qd1e252" ana="#mt19_17">si vis ad vitam ingredi serva man<lb ed="#L"/>data</quote> 
           ecce <del rend="strikethrough">mandata</del> opus cum mandata 
           <lb ed="#L"/>sint in <unclear>gloris</unclear> de opere faciendo vel di<lb ed="#L"/>mittendo 
-          utque per illud psalmum <quote ana="#ps36_27">declina a malo 
+          utque per illud psalmum <quote xml:id="v23d83-d1e69-Qd1e268" ana="#ps36_27">declina a malo 
           <lb ed="#L"/>et fac bonum</quote> quia illa in summa
         </p>
-        <p>
+        <p xml:id="v23d83-d1e69-d1e274">
           <pc type="#pilcrow"/> 2o sic theologiae non assignatur convenienter 
           <lb ed="#L"/>causa materialis ut formalis et sic de aliis <unclear>a??m</unclear> pro prima 
           <lb ed="#L"/>parte quia theologia non habet causam materialem 
@@ -115,7 +110,7 @@
           <lb ed="#L"/><unclear>annus</unclear> <unclear>m?tlem</unclear> in qua etc maxime esset 
           <lb ed="#L"/>anima falsitas patet quia theologia non est 
           <lb ed="#L"/>patet quia ipsa est <unclear>in deo</unclear> iuxta <title>ad romanorum</title> 11o 
-          <lb ed="#L"/><quote ana="#rom11_36">quoniam ex ipso et per ipsum et in ipso sunt omnia</quote>
+          <lb ed="#L"/><quote xml:id="v23d83-d1e69-Qd1e319" ana="#rom11_36">quoniam ex ipso et per ipsum et in ipso sunt omnia</quote>
           <lb ed="#L"/>igitur non in omnia consequentia tenet quia idem accidens non 
           <lb ed="#L"/>est diversis substantiis Confirmatur si esset 
           ...
@@ -128,7 +123,7 @@
           <lb ed="#L"/>vel esset cognitio veri vel dilectio boni 
           <lb ed="#L"/>non primum ut patet per <name>venerabilem augustinum</name> libro primo 
           <lb ed="#L"/><del>de trinitate</del> <title>de doctrina christiana</title> <unclear> 21 7</unclear> ubi dicit 
-          <lb ed="#L"/><quote source="http://scta.info/resource/addc-l1">legis et omnium divinarum scripturarum plenitudo 
+          <lb ed="#L"/><quote xml:id="v23d83-d1e69-Qd1e358" source="http://scta.info/resource/addc-l1">legis et omnium divinarum scripturarum plenitudo 
           <lb ed="#L"/>et finis est dilectio dei quo fruendum 
           <lb ed="#L"/>est</quote> <unclear>enim</unclear> potest dici 2m quia dilectio boni 
           <lb ed="#L"/>eset finis caritatis igitur non theologiae <unclear>cum tenet</unclear> 
@@ -136,37 +131,38 @@
           <lb ed="#L"/><unclear>eundi</unclear> esse <unclear>ser?e</unclear> per se et proprium antecedens 
           <lb ed="#L"/>notum est de se
         </p>
-        <p>
+        <p xml:id="v23d83-d1e69-d1e390">
           In oppositum primi est 
           <lb ed="#L"/><name>apostolus</name> qui <unclear>uxat</unclear> causa <unclear>scientiarum</unclear> et <name>beatus augustinus</name> 
-          <lb ed="#L"/>in multis locis ut <ref target="http://scta.info/resource/adt-l14"><title>de trinitate</title> 14</ref> dicit theologia 
+          <lb ed="#L"/>in multis locis ut <ref xml:id="v23d83-d1e69-Rd1e408" target="http://scta.info/resource/adt-l14"><title>de trinitate</title> 14</ref> dicit theologia 
           <lb ed="#L"/>est scientia de hiis quae ad salutem animae 
           <lb ed="#L"/>pertinent et ratione sic certior est cognitio 
           <lb ed="#L"/>tradita per divinam inspirationem quam 
           <lb ed="#L"/>per humanam inventionem et dignior debet 
           <lb ed="#L"/>dici scientia
         </p>
-        <p>
+        <p xml:id="v23d83-d1e69-d1e425">
           ista quaestio unum praesupponit 
           <lb ed="#L"/>et aliud quaerit et secundum hoc erunt duo 
           <lb ed="#L"/>articuli
         </p>
-        <div>
-          <head>Articulus 1</head>
-          <head type="question-title">An theologia sit scientia et si sic an simpliciter sit practica 
+        <div xml:id="v23d83-d1e69-Dd1e432">
+          <head xml:id="v23d83-d1e69-Hd1e434">Articulus 1</head>
+          <head xml:id="v23d83-d1e69-Hd1e437" type="question-title">An theologia sit scientia et si sic an simpliciter sit practica 
           an simpliciter speculativa an mixto modo se habens de utroque</head>
-          <p>
+          <p xml:id="v23d83-d1e69-d1e440">
             Quantum ad primum videndi 
             <lb ed="#L"/>est an theologia sit scientia et si sic an simpliciter 
             <lb ed="#L"/>sit practica an simpliciter speculativa an mixto 
             <lb ed="#L"/>modo se habens de utroque
           </p>
-          <p>
+          <p xml:id="v23d83-d1e69-d1e449">
             sunt variae opiniones 
             <lb ed="#L"/>quo ad primum <title>thomas de argentina</title> recitat 
             <lb ed="#L"/>quaestione prima super prologum plures opiniones 
             <lb ed="#L"/>cum 
           </p>
+        </div>
       </div>
     </body>
   </text>
